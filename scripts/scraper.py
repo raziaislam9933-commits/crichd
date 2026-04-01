@@ -21,10 +21,13 @@ from datetime import datetime, timezone
 # CONFIGURATION
 # ============================================================
 
+import urllib.parse
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STREAMS_DIR = os.path.join(BASE_DIR, "streams")
 JSON_OUTPUT = os.path.join(STREAMS_DIR, "crichd_streams.json")
 M3U_OUTPUT = os.path.join(STREAMS_DIR, "crichd_cricket.m3u")
+IPTV_JSON_OUTPUT = os.path.join(STREAMS_DIR, "crichd_iptv.json")
 
 # CricHD channel definitions
 # channel_id: ID used on CricHD pages (for playerado.top/embed2.php)
@@ -321,8 +324,17 @@ def scrape_all_channels():
 # OUTPUT GENERATORS
 # ============================================================
 
+def get_origin(url):
+    """Extract origin from a URL. e.g. https://server.com:7059"""
+    try:
+        parsed = urllib.parse.urlparse(url)
+        return f"{parsed.scheme}://{parsed.netloc}"
+    except Exception:
+        return ""
+
+
 def write_json(streams):
-    """Write the JSON file with all stream data."""
+    """Write the detailed JSON file with all stream data."""
     data = {
         "source": "CricHD",
         "description": "Auto-scraped cricket live stream links from CricHD",
@@ -343,6 +355,40 @@ def write_json(streams):
     print(f"\nJSON saved: {JSON_OUTPUT}")
 
 
+def write_iptv_json(streams):
+    """
+    Write the IPTV player compatible JSON file.
+    Format used by NS Player, Televizo, IPTV Pro, etc.
+    Each entry: name, link, logo, origin, referrer, userAgent, cookie, drmScheme, drmLicense
+    """
+    iptv_list = []
+
+    for stream in streams:
+        if stream["status"] != "online" or not stream["m3u8_url"]:
+            continue
+
+        origin = get_origin(stream["m3u8_url"])
+
+        iptv_list.append({
+            "name": stream["name"],
+            "link": stream["m3u8_url"],
+            "logo": stream.get("logo", ""),
+            "origin": origin,
+            "referrer": REFERER,
+            "userAgent": USER_AGENT,
+            "cookie": "",
+            "drmScheme": "",
+            "drmLicense": "",
+        })
+
+    os.makedirs(os.path.dirname(IPTV_JSON_OUTPUT), exist_ok=True)
+    with open(IPTV_JSON_OUTPUT, "w", encoding="utf-8") as f:
+        json.dump(iptv_list, f, indent=2, ensure_ascii=False)
+    print(f"IPTV JSON saved: {IPTV_JSON_OUTPUT}")
+
+    return iptv_list
+
+
 def write_m3u(streams):
     """
     Write an M3U playlist file compatible with IPTV players.
@@ -351,7 +397,7 @@ def write_m3u(streams):
     Format used:
       #EXTM3U header with metadata
       #EXTINF lines with channel info
-      URL|Referer=...&User-Agent=...
+      URL|Referer=...&User-Agent=...&Origin=...
     """
     os.makedirs(os.path.dirname(M3U_OUTPUT), exist_ok=True)
 
@@ -366,15 +412,16 @@ def write_m3u(streams):
 
     for stream in streams:
         if stream["status"] != "online" or not stream["m3u8_url"]:
-            # Add commented-out offline entry
             lines.append(f'# OFFLINE: {stream["name"]} ({stream["channel_id"]})')
             lines.append('')
+            continue
 
         name = stream["name"]
         group = stream["group"]
         logo = stream.get("logo", "")
         m3u8_url = stream["m3u8_url"]
         lang = stream.get("lang", "")
+        origin = get_origin(m3u8_url)
 
         # EXTINF with full metadata
         extinf = f'#EXTINF:-1 tvg-name="{name}" tvg-logo="{logo}" group-title="Cricket - {group}"'
@@ -384,12 +431,12 @@ def write_m3u(streams):
 
         lines.append(extinf)
 
-        # VLC-specific options (some players need this)
+        # VLC-specific options
         lines.append(f'#EXTVLCOPT:http-user-agent={USER_AGENT}')
         lines.append(f'#EXTVLCOPT:http-referrer={REFERER}')
 
-        # Stream URL with headers appended (pipe format for NS Player / Tivimate / etc.)
-        lines.append(f'{m3u8_url}|Referer={urllib.parse.quote(REFERER)}&User-Agent={urllib.parse.quote(USER_AGENT)}')
+        # Stream URL with pipe-separated headers (NS Player / Televizo / IPTV Pro format)
+        lines.append(f'{m3u8_url}|Referer={urllib.parse.quote(REFERER)}&User-Agent={urllib.parse.quote(USER_AGENT)}&Origin={urllib.parse.quote(origin)}')
         lines.append('')
 
     with open(M3U_OUTPUT, "w", encoding="utf-8") as f:
@@ -448,6 +495,7 @@ if __name__ == "__main__":
     # Generate outputs
     print()
     write_json(streams)
+    write_iptv_json(streams)
     write_m3u(streams)
     write_simple_m3u(streams)
 
@@ -463,5 +511,6 @@ if __name__ == "__main__":
     print()
     print("Files updated:")
     print(f"  - {JSON_OUTPUT}")
+    print(f"  - {IPTV_JSON_OUTPUT}")
     print(f"  - {M3U_OUTPUT}")
     print(f"  - {os.path.join(STREAMS_DIR, 'crichd_cricket_simple.m3u')}")
