@@ -1,0 +1,64 @@
+name: CricHD Cricket Stream Scraper
+
+on:
+  schedule:
+    # Run every 30 minutes (tokens expire ~1 hour)
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions tab
+  push:
+    # Also run when scraper or workflow files change
+    paths:
+      - 'scripts/scraper.py'
+      - '.github/workflows/crichd-scraper.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    name: Scrape Cricket Streams
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          # No extra dependencies needed — uses only stdlib
+
+      - name: Run scraper
+        run: |
+          python scripts/scraper.py
+
+      - name: Check if streams changed
+        id: check_changes
+        run: |
+          git diff --quiet streams/ || echo "changed=true" >> $GITHUB_OUTPUT
+          echo "---"
+          echo "Stream files status:"
+          ls -la streams/
+
+      - name: Commit and push updates
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add streams/crichd_streams.json streams/crichd_cricket.m3u streams/crichd_cricket_simple.m3u
+          git commit -m "🔄 Update cricket streams ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+          git push
+
+      - name: Skip push notification
+        if: steps.check_changes.outputs.changed != 'true'
+        run: |
+          echo "No stream changes detected. Skipping commit."
