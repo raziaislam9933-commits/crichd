@@ -4,70 +4,70 @@
 # Configure your player with: User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
 
 #EXTINF:-1 tvg-name="Willow Cricket" tvg-logo="" group-title="Cricket - English",Willow Cricket
-https://jan.bhalocast.com:7059/hls/dowill.m3u8?md5=c7mK_ZKUkC6A8wfCTrJkBg&expires=1775179304&ch=dowill&s=672df5efa9046681d71243b51ae0e4d2
+https://ting.bhalocast.com:7059/hls/dowill.m3u8?md5=TRA6BAWW8zkNpA8zOknZFA&expires=1775200582&ch=dowill&s=eda0c7025ec56ba81aa51fd282b79edf
 
 #EXTINF:-1 tvg-name="Willow HD" tvg-logo="" group-title="Cricket - English",Willow HD
-https://jan.bhalocast.com:7059/hls/hdowill.m3u8?md5=9rj9v0K1w7o_aG6W_GVu2g&expires=1775179305&ch=hdowill&s=1f12cb5105e937f1a4ff6baadb08820d
+https://jan.bhalocast.com:7059/hls/hdowill.m3u8?md5=4IaY0vXScu3YX4JqWreXjw&expires=1775200583&ch=hdowill&s=fd79eacd27650c6f95fee99b4cd0ea7e
 
 #EXTINF:-1 tvg-name="Star Sports 1" tvg-logo="" group-title="Cricket - English",Star Sports 1
-https://ting.bhalocast.com:7059/hls/star1kim.m3u8?md5=Pg3pUR3SWiYQjhJCPUJFAw&expires=1775179307&ch=star1kim&s=7cf7901d26b0e4fda8ab0ecf86ed19df
+https://jan.bhalocast.com:7059/hls/star1kim.m3u8?md5=3BEAWwPguynr_o5kZkf2ug&expires=1775200585&ch=star1kim&s=40b4d0b3c6ee7c5b6e6e6afb08b7a463
 
 #EXTINF:-1 tvg-name="Star Sports 2" tvg-logo="" group-title="Cricket - English",Star Sports 2
-https://ting.bhalocast.com:7059/hls/str2cws.m3u8?md5=BAzYLn28ITWggv1kxczvfA&expires=1775179309&ch=str2cws&s=ae5019f143d8aab4fa8009085a509c50
+https://jan.bhalocast.com:7059/hls/str2cws.m3u8?md5=GcdG7CMKBFueJ46ygpKtgQ&expires=1775200586&ch=str2cws&s=d544ec513efbf670a5042cac9094af3c
 
 #EXTINF:-1 tvg-name="Sky Sports Cricket" tvg-logo="" group-title="Cricket - English",Sky Sports Cricket
-https://ting.bhalocast.com:7059/hls/dodosky2.m3u8?md5=JkfRs7JUmQzJMnyQ3ChVAg&expires=1775179310&ch=dodosky2&s=a9f382e53c016ad21661f75f356628be
+https://jan.bhalocast.com:7059/hls/dodosky2.m3u8?md5=cTVEvpCVz8UdLrRswfNfyQ&expires=1775200588&ch=dodosky2&s=021d89b3d95a4a7a20646a7d00c055e2
 
 #EXTINF:-1 tvg-name="Ten Sports" tvg-logo="" group-title="Cricket - English",Ten Sports
-https://ting.bhalocast.com:7059/hls/tensp.m3u8?md5=BvcGbSIGxhotTG7RHa6f-A&expires=1775179311&ch=tensp&s=151be84b9d2308977bfb14b26eeaa0a5
+https://jan.bhalocast.com:7059/hls/tensp.m3u8?md5=Q6AbVC_ZDQwEFbD_bbkG8w&expires=1775200589&ch=tensp&s=1c1dc667064e6f46b6f7c7ee43408be4
 
 #EXTINF:-1 tvg-name="Fox Sports Cricket" tvg-logo="" group-title="Cricket - English",Fox Sports Cricket
-https://jan.bhalocast.com:7059/hls/foxcric.m3u8?md5=Sw2GR9JIixAnpPnvQYbe1Q&expires=1775179313&ch=foxcric&s=b29815cc0eb26d7bc6fdb02fb413cc41
+https://dz2.bhalocast.com:7059/hls/foxcric.m3u8?md5=F2QrfLgvzc4ri4u0iBGWlw&expires=1775200590&ch=foxcric&s=d904329e0e01b292a3b649371e319b4f
 
 #EXTINF:-1 tvg-name="Star Sports Hindi" tvg-logo="" group-title="Cricket - Hindi",Star Sports Hindi
-https://jan.bhalocast.com:7059/hls/str1hil.m3u8?md5=16sGaW4GDKfxX3wTvKlrvw&expires=1775179314&ch=str1hil&s=3804c31363804cf5df391971ebdca9b1
+https://ting.bhalocast.com:7059/hls/str1hil.m3u8?md5=yqXAnNBp4aZoTVivu8qKcA&expires=1775200592&ch=str1hil&s=84c89a7154baae380386872fffd5db4b
 
 #EXTINF:-1 tvg-name="Willow Xtra" tvg-logo="" group-title="Cricket - Hindi",Willow Xtra
-https://jan.bhalocast.com:7059/hls/dwil2.m3u8?md5=6MRg3RWiTLQbiYXqFOUEiw&expires=1775179315&ch=dwil2&s=a4d98137964965e0c0972fe7507b577d
+https://dz2.bhalocast.com:7059/hls/dwil2.m3u8?md5=IZD1qZiN3j_1JaMiq__oLw&expires=1775200593&ch=dwil2&s=1b6899c48e09e018e6f12322d03f8aed
 
 #EXTINF:-1 tvg-name="Star Sports Tamil" tvg-logo="" group-title="Cricket - Regional",Star Sports Tamil
-https://ting.bhalocast.com:7059/hls/star1tamil.m3u8?md5=3CmAhDTpVs-koVlKZXmgaQ&expires=1775179317&ch=star1tamil&s=c16b7be3b971b60c9ae00bb940bce32f
+https://dz2.bhalocast.com:7059/hls/star1tamil.m3u8?md5=G_Z-c_iPDcay9p1zNNviSQ&expires=1775200595&ch=star1tamil&s=5c43fc7847e4ebee56df1e567dee845b
 
 #EXTINF:-1 tvg-name="Star Sports Telugu" tvg-logo="" group-title="Cricket - Regional",Star Sports Telugu
-https://ting.bhalocast.com:7059/hls/star1telu.m3u8?md5=VbjR4nc7_usOlEo7mj_I-g&expires=1775179318&ch=star1telu&s=1b5c6137d721442bbd051b80b36f07ba
+https://dz2.bhalocast.com:7059/hls/star1telu.m3u8?md5=tg1tUE1OTbbLPFhY_HG52A&expires=1775200596&ch=star1telu&s=dda8c1807e892fc950faee3c52d1069f
 
 #EXTINF:-1 tvg-name="PTV Sports" tvg-logo="" group-title="Cricket - Pakistan",PTV Sports
-https://ting.bhalocast.com:7059/hls/ptvscpr.m3u8?md5=tGIwpWRIJPzYPS6KMFyCvA&expires=1775179319&ch=ptvscpr&s=ce417421a1ca1a929fd7014a907198fe
+https://jan.bhalocast.com:7059/hls/ptvscpr.m3u8?md5=U85a3wKZo811o1-yt4MNVw&expires=1775200597&ch=ptvscpr&s=477c735598d313cc4771e37895922e5d
 
 #EXTINF:-1 tvg-name="A Sports" tvg-logo="" group-title="Cricket - Pakistan",A Sports
-https://dz2.bhalocast.com:7059/hls/asportsd.m3u8?md5=vVDlvbrXpCRvKl8wYMKMaQ&expires=1775179320&ch=asportsd&s=9262c7b080c0309352894b23558ced66
+https://ting.bhalocast.com:7059/hls/asportsd.m3u8?md5=Jl1j2b6tcJSe3cDVhFFRsg&expires=1775200598&ch=asportsd&s=1e2572922fba89761448a76fed59b428
 
 #EXTINF:-1 tvg-name="Geo Super" tvg-logo="" group-title="Cricket - Pakistan",Geo Super
-https://dz2.bhalocast.com:7059/hls/geosp.m3u8?md5=E4COi_PwF5wCI6pOJ6w0yA&expires=1775179322&ch=geosp&s=8912bbf6238e7a06d2aa64bd52cc8efb
+https://dz2.bhalocast.com:7059/hls/geosp.m3u8?md5=a7YTjajz7edfl2q_tF7jhA&expires=1775200600&ch=geosp&s=ef67e607c20eecf0c24a2cd35eb504e6
 
 #EXTINF:-1 tvg-name="T Sports HD" tvg-logo="" group-title="Cricket - Pakistan",T Sports HD
-https://jan.bhalocast.com:7059/hls/tsportshd.m3u8?md5=_LyE8pO5b8Ba6mTvBnROyg&expires=1775179323&ch=tsportshd&s=27366a65fb82707cff46bb014835b64b
+https://ting.bhalocast.com:7059/hls/tsportshd.m3u8?md5=aEx1XHxtiEa8Gxfo9GP2Uw&expires=1775200601&ch=tsportshd&s=742318ef87036011a1f75dd7fdce3cbf
 
 #EXTINF:-1 tvg-name="SuperSport Cricket" tvg-logo="" group-title="Cricket - International",SuperSport Cricket
-https://dz2.bhalocast.com:7059/hls/sscricket.m3u8?md5=kexA6-LjeRPEQxlzJ1TWHQ&expires=1775179324&ch=sscricket&s=28ec6c0a66bf11e7761a355fb7d05e92
+https://jan.bhalocast.com:7059/hls/sscricket.m3u8?md5=R-1pI_0mfbRlOkCxcSz9HA&expires=1775200602&ch=sscricket&s=c61c9c425bf4659d8cc546482b9451d4
 
 #EXTINF:-1 tvg-name="Astro Cricket" tvg-logo="" group-title="Cricket - International",Astro Cricket
-https://jan.bhalocast.com:7059/hls/astrocric.m3u8?md5=g667CZn6k530Ep0ETE9ArQ&expires=1775179326&ch=astrocric&s=011cd942c68cee4efe02c6f2cba58989
+https://jan.bhalocast.com:7059/hls/astrocric.m3u8?md5=WYfgKZHmcGWDuU9_uiUcDQ&expires=1775200604&ch=astrocric&s=1e846e1ce2ccfa75629efca69e9fc6c1
 
 #EXTINF:-1 tvg-name="CricLife 1" tvg-logo="" group-title="Cricket - International",CricLife 1
-https://ting.bhalocast.com:7059/hls/cl1stream.m3u8?md5=YgX1SkWD8UgtB1FsJeK85g&expires=1775179327&ch=cl1stream&s=88d7ede1cb503c722e1d941c90ed39f2
+https://jan.bhalocast.com:7059/hls/cl1stream.m3u8?md5=NPWvVjkBLE2_6UvKVs8Q9A&expires=1775200605&ch=cl1stream&s=d4e07ca3a23012fd4b21d51746841162
 
 #EXTINF:-1 tvg-name="CricLife 2" tvg-logo="" group-title="Cricket - International",CricLife 2
-https://jan.bhalocast.com:7059/hls/cl2stream.m3u8?md5=L4ZXtJU7ArtJUZUo2hYqsQ&expires=1775179328&ch=cl2stream&s=952de2e2922424c97606d668cefce9d7
+https://ting.bhalocast.com:7059/hls/cl2stream.m3u8?md5=Kx7D7UGNyYJlrO68qVpe0w&expires=1775200606&ch=cl2stream&s=1fa43702a3a5f49b7d6017dd99a76942
 
 #EXTINF:-1 tvg-name="Sony Sports Ten 1" tvg-logo="" group-title="Cricket - International",Sony Sports Ten 1
-https://jan.bhalocast.com:7059/hls/sonyten1.m3u8?md5=j9XHPENR7okyjhMEQ5ikHw&expires=1775179329&ch=sonyten1&s=898c0993f5462a83e0f68cb709e7724f
+https://ting.bhalocast.com:7059/hls/sonyten1.m3u8?md5=5UZX9htqgWMiSRAfs2pvTw&expires=1775200608&ch=sonyten1&s=9319160ee671bf0bc8e5070256524c8a
 
 #EXTINF:-1 tvg-name="Sony Sports Ten 2" tvg-logo="" group-title="Cricket - International",Sony Sports Ten 2
-https://dz2.bhalocast.com:7059/hls/sonyten2.m3u8?md5=eXTCREBVoxV3Iv7Yy3XsdQ&expires=1775179331&ch=sonyten2&s=2b9ce07fdd50dbf80eb2bde5786aac91
+https://dz2.bhalocast.com:7059/hls/sonyten2.m3u8?md5=khTPHlP7pcGboHcNB6pudg&expires=1775200609&ch=sonyten2&s=54f29a56b2dc83cc41c2e35c90571e8b
 
 #EXTINF:-1 tvg-name="Sony Sports Ten 5" tvg-logo="" group-title="Cricket - International",Sony Sports Ten 5
-https://jan.bhalocast.com:7059/hls/sonyten5.m3u8?md5=iD-bfMFPFjcCoIhFxElKVA&expires=1775179332&ch=sonyten5&s=130f4ef86246eaf722c3bf57e408940d
+https://ting.bhalocast.com:7059/hls/sonyten5.m3u8?md5=KLd770QU_wZgWgNsHMlVdg&expires=1775200611&ch=sonyten5&s=e79270acd1a99472c943a17872dd67bc
 
 #EXTINF:-1 tvg-name="Willow 2" tvg-logo="" group-title="Cricket - International",Willow 2
-https://jan.bhalocast.com:7059/hls/willow2.m3u8?md5=ZCF1-NlXIRGuAWelvoRhTw&expires=1775179333&ch=willow2&s=3671bbd30845c00e99b4c25b3ab7625f
+https://ting.bhalocast.com:7059/hls/willow2.m3u8?md5=Xpes5bLuLd27NReNEyPm_A&expires=1775200612&ch=willow2&s=ca6dd4f99259250939ed6bc0cabe0c3b
