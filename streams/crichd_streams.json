@@ -1,7 +1,7 @@
 {
   "source": "CricHD",
   "description": "Auto-scraped cricket live stream links from CricHD",
-  "updated_at": "2026-04-21T08:18:24.984444+00:00",
+  "updated_at": "2026-04-21T10:01:26.393585+00:00",
   "total_channels": 23,
   "online_channels": 0,
   "offline_channels": 23,
@@ -22,7 +22,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:17:58.013911+00:00",
+      "scraped_at": "2026-04-21T10:00:59.406108+00:00",
       "status": "offline"
     },
     {
@@ -37,7 +37,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:17:59.660061+00:00",
+      "scraped_at": "2026-04-21T10:01:00.671879+00:00",
       "status": "offline"
     },
     {
@@ -52,7 +52,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:00.955657+00:00",
+      "scraped_at": "2026-04-21T10:01:02.357318+00:00",
       "status": "offline"
     },
     {
@@ -67,7 +67,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:01.911649+00:00",
+      "scraped_at": "2026-04-21T10:01:04.062427+00:00",
       "status": "offline"
     },
     {
@@ -82,7 +82,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:03.145459+00:00",
+      "scraped_at": "2026-04-21T10:01:05.016592+00:00",
       "status": "offline"
     },
     {
@@ -97,7 +97,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:04.372181+00:00",
+      "scraped_at": "2026-04-21T10:01:06.348043+00:00",
       "status": "offline"
     },
     {
@@ -112,7 +112,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:05.744928+00:00",
+      "scraped_at": "2026-04-21T10:01:07.615864+00:00",
       "status": "offline"
     },
     {
@@ -127,7 +127,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:07.143571+00:00",
+      "scraped_at": "2026-04-21T10:01:08.575506+00:00",
       "status": "offline"
     },
     {
@@ -142,7 +142,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:08.493663+00:00",
+      "scraped_at": "2026-04-21T10:01:09.895384+00:00",
       "status": "offline"
     },
     {
@@ -157,7 +157,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:09.832858+00:00",
+      "scraped_at": "2026-04-21T10:01:11.247660+00:00",
       "status": "offline"
     },
     {
@@ -172,7 +172,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:10.759107+00:00",
+      "scraped_at": "2026-04-21T10:01:12.598620+00:00",
       "status": "offline"
     },
     {
@@ -187,7 +187,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:12.026553+00:00",
+      "scraped_at": "2026-04-21T10:01:14.250653+00:00",
       "status": "offline"
     },
     {
@@ -202,7 +202,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:12.971081+00:00",
+      "scraped_at": "2026-04-21T10:01:15.193332+00:00",
       "status": "offline"
     },
     {
@@ -217,7 +217,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:14.326574+00:00",
+      "scraped_at": "2026-04-21T10:01:16.143785+00:00",
       "status": "offline"
     },
     {
@@ -232,7 +232,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:15.283809+00:00",
+      "scraped_at": "2026-04-21T10:01:17.113856+00:00",
       "status": "offline"
     },
     {
@@ -247,7 +247,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:16.643762+00:00",
+      "scraped_at": "2026-04-21T10:01:18.054692+00:00",
       "status": "offline"
     },
     {
@@ -262,7 +262,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:17.573534+00:00",
+      "scraped_at": "2026-04-21T10:01:19.006243+00:00",
       "status": "offline"
     },
     {
@@ -277,7 +277,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:18.542560+00:00",
+      "scraped_at": "2026-04-21T10:01:20.371420+00:00",
       "status": "offline"
     },
     {
@@ -292,7 +292,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:19.933326+00:00",
+      "scraped_at": "2026-04-21T10:01:21.316914+00:00",
       "status": "offline"
     },
     {
@@ -307,7 +307,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:21.291415+00:00",
+      "scraped_at": "2026-04-21T10:01:22.680432+00:00",
       "status": "offline"
     },
     {
@@ -322,7 +322,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:22.237365+00:00",
+      "scraped_at": "2026-04-21T10:01:23.621886+00:00",
       "status": "offline"
     },
     {
@@ -337,7 +337,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:23.170905+00:00",
+      "scraped_at": "2026-04-21T10:01:24.950719+00:00",
       "status": "offline"
     },
     {
@@ -352,7 +352,7 @@
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
       "md5": "",
       "expires": 0,
-      "scraped_at": "2026-04-21T08:18:24.484261+00:00",
+      "scraped_at": "2026-04-21T10:01:25.893370+00:00",
       "status": "offline"
     }
   ]
